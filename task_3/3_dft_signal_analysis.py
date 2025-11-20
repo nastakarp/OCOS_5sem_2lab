@@ -128,7 +128,7 @@ def analyze_and_save_signal(filename):
 
     plt.figure(figsize=(10, 3))
     plt.stem(freqs, ampl, basefmt=" ", linefmt='C1-', markerfmt='C1o')
-    plt.title(f'Амплитудный спектр (около {f_est:.0f} Гц): {filename}')
+    plt.title(f'Амплитудный спектр: {filename}')
     plt.xlabel('Частота (Гц)')
     plt.ylabel('Амплитуда')
     plt.xlim(xlim_min, xlim_max)
